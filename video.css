@@ -1,0 +1,75 @@
+        .thumnail {
+            width: 100%;
+            border-radius: 4%;
+            margin-bottom: 8px;
+        }
+        .title {
+            font-weight:semi-bold;
+            font-size: 19px;
+            width: fit-content;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            color: rgb(41, 39, 39);
+            /* font-family: Arial, Helvetica, sans-serif; */
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+            
+            
+        }
+
+        .author {
+            color: rgb(117, 115, 115);
+            margin-top: 3px;
+            margin-bottom: 3px;
+            font-size: 16px;
+        }
+
+        .stat {
+            margin-top: 3px;
+            margin-bottom: 3px;
+            color: rgb(90, 88, 88);
+            font-size: 16px;
+        }
+        .fu
+        {
+            vertical-align: top;
+        }
+        .video-description
+        {
+            display: grid;
+            grid-template-columns: 20% 80% ;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        .thumb {
+            vertical-align: top;
+            border-radius: 50px;
+            width: 80%;
+            /* font-size: 12px; */
+        
+            
+  
+        }
+        .video-grid
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            row-gap: 5%;
+            column-gap: 16px;
+            row-gap: 40px;
+            /* background-color: blue; */
+            
+        }
+        .thumb-row{
+            position: relative;
+        }
+        .time{
+            position:absolute;
+            background-color: black;
+            color: white;
+            right:0px;
+            bottom: 12px;
+            margin: 3px;
+
+        }

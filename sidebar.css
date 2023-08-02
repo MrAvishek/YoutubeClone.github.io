@@ -1,0 +1,49 @@
+.sb
+{
+    background-color: white;
+    color: rgb(218, 18, 18);
+    position: fixed;
+    left: 0;
+    top:60px;
+    bottom:0;
+    width:3.9rem;
+    /* background-color: red; */
+}
+
+.side-icon div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons
+
+{
+    /* background-color: antiquewhite; */
+    width: 34px;
+    /* padding-left: 20px; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:4.5rem;
+    transform: scale(.8); //make size bigger
+    /* background-color: green; */
+    
+}
+.side-icon div:hover{
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.icons div{
+ color: black;
+ font-size: 12px;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
